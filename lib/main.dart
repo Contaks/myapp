@@ -12,6 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Al-Quran App',
+      debugShowCheckedModeBanner: false,
+      color: Colors.green,
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
